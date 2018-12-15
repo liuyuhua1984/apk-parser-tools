@@ -1,0 +1,349 @@
+2018-12-15 13:44:26.982 [main] DEBUG o.a.x.s.context.FileSystemXmlApplicationContext - Refreshing org.apache.xbean.spring.context.FileSystemXmlApplicationContext@7276c8cd
+2018-12-15 13:44:27.133 [main] DEBUG o.s.context.index.CandidateComponentsIndexLoader - Loaded 1] index(es)
+2018-12-15 13:44:27.167 [main] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Using candidate component class from index: com.lyh.apk.service.impl.AgentUserServiceImpl
+2018-12-15 13:44:27.168 [main] DEBUG o.s.c.annotation.ClassPathBeanDefinitionScanner - Using candidate component class from index: com.lyh.apk.manager.AgentUserManager
+2018-12-15 13:44:27.221 [main] DEBUG o.a.x.s.context.v2.XBeanXmlBeanDefinitionReader - Loaded 12 bean definitions from URL [file:E:/Work/apk-parser-tools/dist/res/spring-mybatis.xml]
+2018-12-15 13:44:27.222 [main] DEBUG o.a.x.s.c.v2.XBeanBeanDefinitionDocumentReader - Imported 12 bean definitions from URL location [file:E:\Work\apk-parser-tools\dist/res/spring-mybatis.xml]
+2018-12-15 13:44:27.223 [main] DEBUG o.a.x.s.context.v2.XBeanXmlBeanDefinitionReader - Loaded 20 bean definitions from file [E:\Work\apk-parser-tools\dist\.\res\beans.xml]
+2018-12-15 13:44:27.259 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2018-12-15 13:44:27.315 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+2018-12-15 13:44:27.343 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: URL [jar:file:/E:/Work/apk-parser-tools/dist/apk-parser-tools-1.0.0.jar!/com/lyh/apk/mapper/AgentUserMapper.class]
+2018-12-15 13:44:27.343 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'agentUserMapper' and 'com.lyh.apk.mapper.AgentUserMapper' mapperInterface
+2018-12-15 13:44:27.344 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0'
+2018-12-15 13:44:27.351 [main] DEBUG o.s.core.env.PropertySourcesPropertyResolver - Found key 'user.dir' in PropertySource 'systemProperties' with value of type String
+2018-12-15 13:44:27.355 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2018-12-15 13:44:27.356 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2018-12-15 13:44:27.356 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2018-12-15 13:44:27.357 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2018-12-15 13:44:27.358 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2018-12-15 13:44:27.362 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2018-12-15 13:44:27.387 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'agentUserServiceImpl'
+2018-12-15 13:44:27.398 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-12-15 13:44:27.405 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'agentUserMapper'
+2018-12-15 13:44:27.411 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sqlSessionFactory'
+2018-12-15 13:44:27.413 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+2018-12-15 13:44:27.791 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-15 13:44:27.792 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2018-12-15 13:44:27.794 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2018-12-15 13:44:27.909 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VFS
+2018-12-15 13:44:27.909 [main] DEBUG org.apache.ibatis.io.JBoss6VFS - JBoss 6 VFS API is not available in this environment.
+2018-12-15 13:44:27.910 [main] DEBUG org.apache.ibatis.io.VFS - Class not found: org.jboss.vfs.VirtualFile
+2018-12-15 13:44:27.910 [main] DEBUG org.apache.ibatis.io.VFS - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-12-15 13:44:27.911 [main] DEBUG org.apache.ibatis.io.VFS - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-12-15 13:44:27.911 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Find JAR URL: jar:file:/E:/Work/apk-parser-tools/dist/apk-parser-tools-1.0.0.jar!/com/lyh/apk/model
+2018-12-15 13:44:27.911 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Inner URL: file:/E:/Work/apk-parser-tools/dist/apk-parser-tools-1.0.0.jar!/com/lyh/apk/model
+2018-12-15 13:44:27.912 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Extracted JAR URL: file:/E:/Work/apk-parser-tools/dist/apk-parser-tools-1.0.0.jar
+2018-12-15 13:44:27.912 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found JAR: file:/E:/Work/apk-parser-tools/dist/apk-parser-tools-1.0.0.jar
+2018-12-15 13:44:27.912 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Listing jar:file:/E:/Work/apk-parser-tools/dist/apk-parser-tools-1.0.0.jar!/com/lyh/apk/model
+2018-12-15 13:44:27.913 [main] DEBUG org.apache.ibatis.io.DefaultVFS - Found resource: /com/lyh/apk/model/AgentUser.class
+2018-12-15 13:44:27.914 [main] DEBUG org.apache.ibatis.io.ResolverUtil - Checking to see if class com.lyh.apk.model.AgentUser matches criteria [is assignable to Object]
+2018-12-15 13:44:27.915 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Scanned package: 'com.lyh.apk.model' for aliases
+2018-12-15 13:44:27.915 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Registered plugin: 'com.github.pagehelper.PageInterceptor@1115ec15'
+Logging initialized using 'class org.apache.ibatis.logging.stdout.StdOutImpl' adapter.
+2018-12-15 13:44:27.933 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed configuration file: 'URL [file:E:/Work/apk-parser-tools/dist/res//mybatis-config.xml]'
+2018-12-15 13:44:28.015 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'URL [jar:file:/E:/Work/apk-parser-tools/dist/apk-parser-tools-1.0.0.jar!/com/lyh/apk/mapper/sqlmap/AgentUserMapper.xml]'
+2018-12-15 13:44:28.030 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'agentUserManager'
+2018-12-15 13:44:28.035 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sessionTemplate'
+2018-12-15 13:44:28.038 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+2018-12-15 13:44:28.052 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+2018-12-15 13:44:28.066 [main] DEBUG o.s.b.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'druid-stat-interceptor'
+Java HotSpot(TM) 64-Bit Server VM warning: UseCMSCompactAtFullCollection is deprecated and will likely be removed in a future release.
+Java HotSpot(TM) 64-Bit Server VM warning: CMSFullGCsBeforeCompaction is deprecated and will likely be removed in a future release.
+Java HotSpot(TM) 64-Bit Server VM warning: Cannot open file log/gc.log due to No such file or directory
+
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a12c404] was not registered for synchronization because synchronization is not active
+2018-12-15 13:44:28.136 [main] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? 
+==> Parameters: 2(Integer)
+<==    Columns: id, sys_user_id, parent_id, game_user_id, status, level, creater, create_time, remarks, flag, divide_ratio, domain_name, tax_revenue_max, gain_max, blend_tax_revenue_max, blend_gain_max, divide_into_type, real_name, bank_no, card_house_row, branch_information, mobile, auditing_status, create_package_flag
+<==        Row: 888013, 53, 888016, 0, 0, 2, 1, 2018-09-12 16:03:50.0, <<BLOB>>, 0, 5, null, 10000, 10000, 10000, 10000, 2, null, null, null, null, null, 2, 1
+<==        Row: 888014, 54, 888018, 0, 0, 2, 1, 2018-10-19 10:48:31.0, <<BLOB>>, 0, 5, null, 4000, 5000, 800, 2380, 3, 王铭杉, 6523113212313, 华夏银行, 重庆华夏银行支行1, 100001, 2, 1
+<==        Row: 888015, 55, 888018, 0, 0, 2, 1, 2018-10-19 14:58:09.0, <<BLOB>>, 0, 5, null, 5000, 5000, 5000, 5000, 1, null, null, null, null, null, 2, 1
+<==        Row: 888025, 65, 888018, null, 0, 2, 1, 2018-11-26 16:27:52.0, <<BLOB>>, 0, null, null, 0, 0, 0, 0, 1, null, null, null, null, null, 0, 1
+<==        Row: 888026, 66, 888018, null, 0, 2, 1, 2018-11-27 16:36:53.0, <<BLOB>>, 0, null, null, 0, 0, 0, 0, 2, null, null, null, null, null, 0, 1
+<==        Row: 888027, 67, 888035, null, 0, 2, 1, 2018-11-27 17:01:40.0, <<BLOB>>, 0, null, null, 5000, 5000, 3000, 2000, 1, null, null, null, null, null, 2, 1
+<==        Row: 888028, 68, 888018, null, 0, 2, 1, 2018-11-27 17:03:32.0, <<BLOB>>, 0, null, null, 0, 0, 0, 0, 3, null, null, null, null, null, 2, 1
+<==        Row: 888029, 69, 888018, null, 0, 2, 1, 2018-11-27 17:28:31.0, <<BLOB>>, 0, null, null, 0, 0, 0, 1000, 3, null, null, null, null, null, 2, 1
+<==        Row: 888030, 70, 888018, null, 0, 2, 1, 2018-11-27 17:42:59.0, <<BLOB>>, 0, null, null, 10000, 10000, 10000, 10000, 1, null, null, null, null, null, 2, 1
+<==        Row: 888031, 71, 888018, null, 0, 2, 1, 2018-11-28 09:42:20.0, <<BLOB>>, 0, null, null, 50000, 50000, 50000, 50000, 2, null, null, null, null, null, 2, 1
+<==        Row: 888032, 72, 888018, null, 0, 2, 1, 2018-11-28 10:18:46.0, <<BLOB>>, 0, null, null, 0, 0, 0, 0, 1, null, null, null, null, null, 2, 1
+<==        Row: 888033, 73, 888018, null, 0, 2, 1, 2018-11-28 10:19:20.0, <<BLOB>>, 0, null, null, 0, 0, 0, 0, 1, null, null, null, null, 1361893858, 2, 1
+<==        Row: 888034, 74, 888018, 0, 0, 2, 0, 2018-11-29 10:50:54.0, <<BLOB>>, 0, 5, null, 0, 0, 0, 0, 0, null, null, null, null, null, 0, 1
+<==      Total: 13
+2018-12-15 13:44:28.199 [main] DEBUG com.alibaba.druid.pool.PreparedStatementPool - {conn-10005, pstmt-20000} enter cache
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a12c404]
+2018-12-15 13:44:28.200 [main] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2018-12-15 13:44:35.634 [pool-2-thread-9] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包已完成::888030
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b0c882b] was not registered for synchronization because synchronization is not active
+2018-12-15 13:44:35.637 [pool-2-thread-9] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: update tb_agent_user set create_package_flag = ? where id = ? 
+==> Parameters: 1(Integer), 888030(Integer)
+<==    Updates: 1
+2018-12-15 13:44:35.652 [pool-2-thread-9] DEBUG com.alibaba.druid.pool.PreparedStatementPool - {conn-10005, pstmt-20001} enter cache
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b0c882b]
+2018-12-15 13:44:35.652 [pool-2-thread-9] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2018-12-15 13:44:35.652 [pool-2-thread-9] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包更新数据库已完成::888030
+2018-12-15 13:44:35.715 [pool-2-thread-4] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包已完成::888025
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a85733f] was not registered for synchronization because synchronization is not active
+2018-12-15 13:44:35.716 [pool-2-thread-4] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: update tb_agent_user set create_package_flag = ? where id = ? 
+==> Parameters: 1(Integer), 888025(Integer)
+2018-12-15 13:44:35.720 [pool-2-thread-3] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包已完成::888015
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78d4fdb3] was not registered for synchronization because synchronization is not active
+2018-12-15 13:44:35.720 [pool-2-thread-3] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@76131cd9] will not be managed by Spring
+==>  Preparing: update tb_agent_user set create_package_flag = ? where id = ? 
+==> Parameters: 1(Integer), 888015(Integer)
+<==    Updates: 1
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a85733f]
+2018-12-15 13:44:35.726 [pool-2-thread-4] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2018-12-15 13:44:35.726 [pool-2-thread-4] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包更新数据库已完成::888025
+2018-12-15 13:44:35.730 [pool-2-thread-13] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包已完成::888034
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70eb92c] was not registered for synchronization because synchronization is not active
+2018-12-15 13:44:35.730 [pool-2-thread-13] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: update tb_agent_user set create_package_flag = ? where id = ? 
+==> Parameters: 1(Integer), 888034(Integer)
+<==    Updates: 1
+2018-12-15 13:44:35.733 [pool-2-thread-3] DEBUG com.alibaba.druid.pool.PreparedStatementPool - {conn-10004, pstmt-20002} enter cache
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78d4fdb3]
+2018-12-15 13:44:35.733 [pool-2-thread-3] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2018-12-15 13:44:35.733 [pool-2-thread-3] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包更新数据库已完成::888015
+<==    Updates: 1
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70eb92c]
+2018-12-15 13:44:35.736 [pool-2-thread-13] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2018-12-15 13:44:35.736 [pool-2-thread-13] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包更新数据库已完成::888034
+2018-12-15 13:44:35.747 [pool-2-thread-8] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包已完成::888029
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@347b70a1] was not registered for synchronization because synchronization is not active
+2018-12-15 13:44:35.749 [pool-2-thread-8] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: update tb_agent_user set create_package_flag = ? where id = ? 
+==> Parameters: 1(Integer), 888029(Integer)
+2018-12-15 13:44:35.755 [pool-2-thread-6] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包已完成::888027
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@674f946f] was not registered for synchronization because synchronization is not active
+2018-12-15 13:44:35.756 [pool-2-thread-6] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@76131cd9] will not be managed by Spring
+==>  Preparing: update tb_agent_user set create_package_flag = ? where id = ? 
+==> Parameters: 1(Integer), 888027(Integer)
+<==    Updates: 1
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@347b70a1]
+2018-12-15 13:44:35.759 [pool-2-thread-8] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2018-12-15 13:44:35.759 [pool-2-thread-8] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包更新数据库已完成::888029
+<==    Updates: 1
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@674f946f]
+2018-12-15 13:44:35.764 [pool-2-thread-6] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2018-12-15 13:44:35.764 [pool-2-thread-6] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包更新数据库已完成::888027
+2018-12-15 13:44:35.776 [pool-2-thread-11] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包已完成::888032
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c22eb2f] was not registered for synchronization because synchronization is not active
+2018-12-15 13:44:35.777 [pool-2-thread-11] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@76131cd9] will not be managed by Spring
+==>  Preparing: update tb_agent_user set create_package_flag = ? where id = ? 
+==> Parameters: 1(Integer), 888032(Integer)
+<==    Updates: 1
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c22eb2f]
+2018-12-15 13:44:35.783 [pool-2-thread-11] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2018-12-15 13:44:35.784 [pool-2-thread-11] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包更新数据库已完成::888032
+2018-12-15 13:44:35.824 [pool-2-thread-5] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包已完成::888026
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a9ebc56] was not registered for synchronization because synchronization is not active
+2018-12-15 13:44:35.824 [pool-2-thread-5] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@76131cd9] will not be managed by Spring
+==>  Preparing: update tb_agent_user set create_package_flag = ? where id = ? 
+==> Parameters: 1(Integer), 888026(Integer)
+<==    Updates: 1
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a9ebc56]
+2018-12-15 13:44:35.839 [pool-2-thread-5] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2018-12-15 13:44:35.839 [pool-2-thread-5] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包更新数据库已完成::888026
+2018-12-15 13:44:35.903 [pool-2-thread-12] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包已完成::888033
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56111cbe] was not registered for synchronization because synchronization is not active
+2018-12-15 13:44:35.904 [pool-2-thread-12] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@76131cd9] will not be managed by Spring
+==>  Preparing: update tb_agent_user set create_package_flag = ? where id = ? 
+==> Parameters: 1(Integer), 888033(Integer)
+2018-12-15 13:44:35.972 [pool-2-thread-2] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包已完成::888014
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d641d1b] was not registered for synchronization because synchronization is not active
+2018-12-15 13:44:35.973 [pool-2-thread-2] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: update tb_agent_user set create_package_flag = ? where id = ? 
+2018-12-15 13:44:35.972 [pool-2-thread-1] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包已完成::888013
+==> Parameters: 1(Integer), 888014(Integer)
+Creating a new SqlSession
+<==    Updates: 1
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56111cbe]
+2018-12-15 13:44:35.977 [pool-2-thread-12] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2018-12-15 13:44:35.977 [pool-2-thread-12] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包更新数据库已完成::888033
+<==    Updates: 1
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d641d1b]
+2018-12-15 13:44:35.980 [pool-2-thread-2] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2018-12-15 13:44:35.980 [pool-2-thread-2] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包更新数据库已完成::888014
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67feb1fd] was not registered for synchronization because synchronization is not active
+2018-12-15 13:44:35.987 [pool-2-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: update tb_agent_user set create_package_flag = ? where id = ? 
+==> Parameters: 1(Integer), 888013(Integer)
+<==    Updates: 1
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67feb1fd]
+2018-12-15 13:44:36.002 [pool-2-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2018-12-15 13:44:36.003 [pool-2-thread-1] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包更新数据库已完成::888013
+2018-12-15 13:44:36.107 [pool-2-thread-7] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包已完成::888028
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@add3fbc] was not registered for synchronization because synchronization is not active
+2018-12-15 13:44:36.107 [pool-2-thread-7] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: update tb_agent_user set create_package_flag = ? where id = ? 
+==> Parameters: 1(Integer), 888028(Integer)
+<==    Updates: 1
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@add3fbc]
+2018-12-15 13:44:36.113 [pool-2-thread-7] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2018-12-15 13:44:36.114 [pool-2-thread-7] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包更新数据库已完成::888028
+2018-12-15 13:44:36.180 [pool-2-thread-10] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包已完成::888031
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58ee0620] was not registered for synchronization because synchronization is not active
+2018-12-15 13:44:36.180 [pool-2-thread-10] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: update tb_agent_user set create_package_flag = ? where id = ? 
+==> Parameters: 1(Integer), 888031(Integer)
+<==    Updates: 1
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58ee0620]
+2018-12-15 13:44:36.186 [pool-2-thread-10] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+2018-12-15 13:44:36.186 [pool-2-thread-10] ERROR com.lyh.apk.manager.AgentUserManager - 代理打包更新数据库已完成::888031
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1fd26de6] was not registered for synchronization because synchronization is not active
+2018-12-15 13:46:28.208 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+2018-12-15 13:46:28.223 [pool-1-thread-1] DEBUG com.alibaba.druid.pool.PreparedStatementPool - {conn-10005, pstmt-20003} enter cache
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1fd26de6]
+2018-12-15 13:46:28.224 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@246929f0] was not registered for synchronization because synchronization is not active
+2018-12-15 13:47:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@246929f0]
+2018-12-15 13:47:28.217 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e64a453] was not registered for synchronization because synchronization is not active
+2018-12-15 13:48:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e64a453]
+2018-12-15 13:48:28.216 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a984687] was not registered for synchronization because synchronization is not active
+2018-12-15 13:49:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a984687]
+2018-12-15 13:49:28.213 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34b84db] was not registered for synchronization because synchronization is not active
+2018-12-15 13:50:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34b84db]
+2018-12-15 13:50:28.213 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40a2d60c] was not registered for synchronization because synchronization is not active
+2018-12-15 13:51:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40a2d60c]
+2018-12-15 13:51:28.216 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48d51ec2] was not registered for synchronization because synchronization is not active
+2018-12-15 13:52:28.204 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48d51ec2]
+2018-12-15 13:52:28.208 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63dcd427] was not registered for synchronization because synchronization is not active
+2018-12-15 13:53:28.208 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63dcd427]
+2018-12-15 13:53:28.217 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@306daabf] was not registered for synchronization because synchronization is not active
+2018-12-15 13:54:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@306daabf]
+2018-12-15 13:54:28.211 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@268c90d6] was not registered for synchronization because synchronization is not active
+2018-12-15 13:55:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@268c90d6]
+2018-12-15 13:55:28.213 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f0806ec] was not registered for synchronization because synchronization is not active
+2018-12-15 13:56:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5f0806ec]
+2018-12-15 13:56:28.213 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e1cfe0f] was not registered for synchronization because synchronization is not active
+2018-12-15 13:57:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e1cfe0f]
+2018-12-15 13:57:28.211 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68da2979] was not registered for synchronization because synchronization is not active
+2018-12-15 13:58:28.208 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68da2979]
+2018-12-15 13:58:28.216 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b1a349e] was not registered for synchronization because synchronization is not active
+2018-12-15 13:59:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b1a349e]
+2018-12-15 13:59:28.210 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource

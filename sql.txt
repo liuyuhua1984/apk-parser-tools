@@ -1,0 +1,3 @@
+alter table tb_agent_user add create_package_flag int(11) not null default 0;
+alter table tb_agent_user add index(create_package_flag);
+alter table tb_agent_user add index(level);

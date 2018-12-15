@@ -1,0 +1,4 @@
+#
+#Sat Dec 15 13:43:42 CST 2018
+com.lyh.apk.manager.AgentUserManager=org.springframework.stereotype.Component
+com.lyh.apk.service.impl.AgentUserServiceImpl=org.springframework.stereotype.Component

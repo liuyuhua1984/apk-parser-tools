@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo message="copy  profile ......"/>
+  <delete dir="E:\Work\apk-parser-tools/dist/"/>
+  <mkdir dir="E:\Work\apk-parser-tools/dist"/>
+  <copy todir="E:\Work\apk-parser-tools/dist" overwrite="true">
+    <fileset dir="E:\Work\apk-parser-tools\target">
+      <include name="*.jar"/>
+    </fileset>
+  </copy>
+  <copy todir="E:\Work\apk-parser-tools/dist/lib" overwrite="true">
+    <fileset dir="E:\Work\apk-parser-tools\target/lib"></fileset>
+  </copy>
+  <copy todir="E:\Work\apk-parser-tools/dist/res/" overwrite="true">
+    <fileset dir="E:\Work\apk-parser-tools/res">
+      <include name="*.properties"/>
+      <include name="*.xml"/>
+      <include name="*.txt"/>
+      <include name="game-key.dat"/>
+    </fileset>
+  </copy>
+  <echo message="copy  profile done ......"/>
+  <echo message="delete jar start"/>
+  <delete file="E:\Work\apk-parser-tools\target/lib/netty-buffer-4.1.16.Final.jar"/>
+  <delete file="E:\Work\apk-parser-tools\target/lib/netty-codec-4.1.16.Final.jar"/>
+  <delete file="E:\Work\apk-parser-tools\target/lib/netty-codec-http-4.1.16.Final.jar"/>
+  <delete file="E:\Work\apk-parser-tools\target/lib/netty-codec-socks-4.1.16.Final.jar"/>
+  <delete file="E:\Work\apk-parser-tools\target/lib/netty-common-4.1.16.Final.jar"/>
+  <delete file="E:\Work\apk-parser-tools\target/lib/netty-handler-4.1.16.Final.jar"/>
+  <delete file="E:\Work\apk-parser-tools\target/lib/netty-handler-proxy-4.1.16.Final.jar"/>
+  <delete file="E:\Work\apk-parser-tools\target/lib/netty-resolver-4.1.16.Final.jar"/>
+  <delete file="E:\Work\apk-parser-tools\target/lib/netty-transport-4.1.16.Final.jar"/>
+  <delete file="E:\Work\apk-parser-tools\target/lib/netty-transport-native-epoll-4.1.16.Final.jar"/>
+  <delete file="E:\Work\apk-parser-tools\target/lib/netty-transport-native-unix-common-4.1.16.Final.jar"/>
+  <echo level="error" message="打包完成版本为 E:\Work\apk-parser-tools/../dist"/>
+</target>
+</project>
