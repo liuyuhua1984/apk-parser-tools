@@ -347,3 +347,597 @@ JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will
 <==      Total: 0
 Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b1a349e]
 2018-12-15 13:59:28.210 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@769c4481] was not registered for synchronization because synchronization is not active
+2018-12-15 14:00:28.220 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@769c4481]
+2018-12-15 14:00:28.232 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f745edf] was not registered for synchronization because synchronization is not active
+2018-12-15 14:01:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f745edf]
+2018-12-15 14:01:28.215 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21dc4d9c] was not registered for synchronization because synchronization is not active
+2018-12-15 14:02:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21dc4d9c]
+2018-12-15 14:02:28.213 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@862626f] was not registered for synchronization because synchronization is not active
+2018-12-15 14:03:28.204 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@862626f]
+2018-12-15 14:03:28.209 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50885013] was not registered for synchronization because synchronization is not active
+2018-12-15 14:04:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@50885013]
+2018-12-15 14:04:28.215 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2455f025] was not registered for synchronization because synchronization is not active
+2018-12-15 14:05:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2455f025]
+2018-12-15 14:05:28.212 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f078fbd] was not registered for synchronization because synchronization is not active
+2018-12-15 14:06:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f078fbd]
+2018-12-15 14:06:28.215 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37c1e5a0] was not registered for synchronization because synchronization is not active
+2018-12-15 14:07:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@37c1e5a0]
+2018-12-15 14:07:28.214 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73f409b4] was not registered for synchronization because synchronization is not active
+2018-12-15 14:08:28.208 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73f409b4]
+2018-12-15 14:08:28.216 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@836f45] was not registered for synchronization because synchronization is not active
+2018-12-15 14:09:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@836f45]
+2018-12-15 14:09:28.210 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bef8085] was not registered for synchronization because synchronization is not active
+2018-12-15 14:10:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@bef8085]
+2018-12-15 14:10:28.211 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1351c0d7] was not registered for synchronization because synchronization is not active
+2018-12-15 14:11:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1351c0d7]
+2018-12-15 14:11:28.231 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e08f3c] was not registered for synchronization because synchronization is not active
+2018-12-15 14:12:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10e08f3c]
+2018-12-15 14:12:28.214 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ef498cc] was not registered for synchronization because synchronization is not active
+2018-12-15 14:13:28.204 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ef498cc]
+2018-12-15 14:13:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b83356e] was not registered for synchronization because synchronization is not active
+2018-12-15 14:14:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b83356e]
+2018-12-15 14:14:28.210 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@477b7097] was not registered for synchronization because synchronization is not active
+2018-12-15 14:15:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@477b7097]
+2018-12-15 14:15:28.210 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c20386c] was not registered for synchronization because synchronization is not active
+2018-12-15 14:16:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c20386c]
+2018-12-15 14:16:28.208 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@407815e4] was not registered for synchronization because synchronization is not active
+2018-12-15 14:17:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@407815e4]
+2018-12-15 14:17:28.210 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c45fa8] was not registered for synchronization because synchronization is not active
+2018-12-15 14:18:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c45fa8]
+2018-12-15 14:18:28.213 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4449602] was not registered for synchronization because synchronization is not active
+2018-12-15 14:19:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4449602]
+2018-12-15 14:19:28.209 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c3734dc] was not registered for synchronization because synchronization is not active
+2018-12-15 14:20:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c3734dc]
+2018-12-15 14:20:28.208 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73cd9800] was not registered for synchronization because synchronization is not active
+2018-12-15 14:21:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@73cd9800]
+2018-12-15 14:21:28.215 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17f6393] was not registered for synchronization because synchronization is not active
+2018-12-15 14:22:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17f6393]
+2018-12-15 14:22:28.211 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26fa3b4] was not registered for synchronization because synchronization is not active
+2018-12-15 14:23:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26fa3b4]
+2018-12-15 14:23:28.211 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55001d02] was not registered for synchronization because synchronization is not active
+2018-12-15 14:24:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@55001d02]
+2018-12-15 14:24:28.211 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ea80e0f] was not registered for synchronization because synchronization is not active
+2018-12-15 14:25:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ea80e0f]
+2018-12-15 14:25:28.211 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68eb223e] was not registered for synchronization because synchronization is not active
+2018-12-15 14:26:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@68eb223e]
+2018-12-15 14:26:28.210 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c5eef9e] was not registered for synchronization because synchronization is not active
+2018-12-15 14:27:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c5eef9e]
+2018-12-15 14:27:28.210 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46cc1c9a] was not registered for synchronization because synchronization is not active
+2018-12-15 14:28:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@46cc1c9a]
+2018-12-15 14:28:28.210 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6db0ad58] was not registered for synchronization because synchronization is not active
+2018-12-15 14:29:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6db0ad58]
+2018-12-15 14:29:28.214 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a39951] was not registered for synchronization because synchronization is not active
+2018-12-15 14:30:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a39951]
+2018-12-15 14:30:28.212 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47428ef8] was not registered for synchronization because synchronization is not active
+2018-12-15 14:31:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47428ef8]
+2018-12-15 14:31:28.208 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@169cf036] was not registered for synchronization because synchronization is not active
+2018-12-15 14:32:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@169cf036]
+2018-12-15 14:32:28.209 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b452b40] was not registered for synchronization because synchronization is not active
+2018-12-15 14:33:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b452b40]
+2018-12-15 14:33:28.213 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71620a95] was not registered for synchronization because synchronization is not active
+2018-12-15 14:34:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71620a95]
+2018-12-15 14:34:28.209 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1181611c] was not registered for synchronization because synchronization is not active
+2018-12-15 14:35:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1181611c]
+2018-12-15 14:35:28.212 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2958dc6] was not registered for synchronization because synchronization is not active
+2018-12-15 14:36:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2958dc6]
+2018-12-15 14:36:28.214 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@291308ca] was not registered for synchronization because synchronization is not active
+2018-12-15 14:37:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@291308ca]
+2018-12-15 14:37:28.211 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74dbf396] was not registered for synchronization because synchronization is not active
+2018-12-15 14:38:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@74dbf396]
+2018-12-15 14:38:28.211 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76bd776d] was not registered for synchronization because synchronization is not active
+2018-12-15 14:39:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76bd776d]
+2018-12-15 14:39:28.211 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7205d3a0] was not registered for synchronization because synchronization is not active
+2018-12-15 14:40:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7205d3a0]
+2018-12-15 14:40:28.209 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@635bc09c] was not registered for synchronization because synchronization is not active
+2018-12-15 14:41:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@635bc09c]
+2018-12-15 14:41:28.209 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28031ed8] was not registered for synchronization because synchronization is not active
+2018-12-15 14:42:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28031ed8]
+2018-12-15 14:42:28.212 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d6879b5] was not registered for synchronization because synchronization is not active
+2018-12-15 14:43:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d6879b5]
+2018-12-15 14:43:28.210 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13fd8609] was not registered for synchronization because synchronization is not active
+2018-12-15 14:44:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13fd8609]
+2018-12-15 14:44:28.211 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d9c54b4] was not registered for synchronization because synchronization is not active
+2018-12-15 14:45:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d9c54b4]
+2018-12-15 14:45:28.209 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@243bd1a0] was not registered for synchronization because synchronization is not active
+2018-12-15 14:46:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@243bd1a0]
+2018-12-15 14:46:28.212 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5175b9b5] was not registered for synchronization because synchronization is not active
+2018-12-15 14:47:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5175b9b5]
+2018-12-15 14:47:28.213 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3eed7401] was not registered for synchronization because synchronization is not active
+2018-12-15 14:48:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3eed7401]
+2018-12-15 14:48:28.213 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5786b87a] was not registered for synchronization because synchronization is not active
+2018-12-15 14:49:28.209 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5786b87a]
+2018-12-15 14:49:28.216 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e2cc5de] was not registered for synchronization because synchronization is not active
+2018-12-15 14:50:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e2cc5de]
+2018-12-15 14:50:28.209 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17572cb5] was not registered for synchronization because synchronization is not active
+2018-12-15 14:51:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17572cb5]
+2018-12-15 14:51:28.209 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cbd9d2] was not registered for synchronization because synchronization is not active
+2018-12-15 14:52:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3cbd9d2]
+2018-12-15 14:52:28.213 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58aa3e92] was not registered for synchronization because synchronization is not active
+2018-12-15 14:53:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58aa3e92]
+2018-12-15 14:53:28.209 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21ed8e8c] was not registered for synchronization because synchronization is not active
+2018-12-15 14:54:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21ed8e8c]
+2018-12-15 14:54:28.214 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a7d4db3] was not registered for synchronization because synchronization is not active
+2018-12-15 14:55:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a7d4db3]
+2018-12-15 14:55:28.211 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75a23cd4] was not registered for synchronization because synchronization is not active
+2018-12-15 14:56:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@75a23cd4]
+2018-12-15 14:56:28.212 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43a1bbeb] was not registered for synchronization because synchronization is not active
+2018-12-15 14:57:28.206 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43a1bbeb]
+2018-12-15 14:57:28.211 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d18edc4] was not registered for synchronization because synchronization is not active
+2018-12-15 14:58:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d18edc4]
+2018-12-15 14:58:28.209 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2be6c180] was not registered for synchronization because synchronization is not active
+2018-12-15 14:59:28.204 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2be6c180]
+2018-12-15 14:59:28.208 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49af525c] was not registered for synchronization because synchronization is not active
+2018-12-15 15:00:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49af525c]
+2018-12-15 15:00:28.209 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d8f41f] was not registered for synchronization because synchronization is not active
+2018-12-15 15:01:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d8f41f]
+2018-12-15 15:01:28.217 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cb043ab] was not registered for synchronization because synchronization is not active
+2018-12-15 15:02:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cb043ab]
+2018-12-15 15:02:28.214 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28277422] was not registered for synchronization because synchronization is not active
+2018-12-15 15:03:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@28277422]
+2018-12-15 15:03:28.214 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f2e635e] was not registered for synchronization because synchronization is not active
+2018-12-15 15:04:28.205 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f2e635e]
+2018-12-15 15:04:28.209 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+Creating a new SqlSession
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48f9fcbf] was not registered for synchronization because synchronization is not active
+2018-12-15 15:05:28.207 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@22bac7bc] will not be managed by Spring
+==>  Preparing: select * from tb_agent_user where level = ? AND create_package_flag = ? 
+==> Parameters: 2(Integer), 0(Integer)
+<==      Total: 0
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48f9fcbf]
+2018-12-15 15:05:28.213 [pool-1-thread-1] DEBUG o.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
