@@ -1007,7 +1007,7 @@
                                       <include name="*.properties"/>
                                       <include name="*.xml"/>
                                       <include name="*.txt"/>
-                                      <include name="game-key.dat"/>
+                                      <include name="*.keystore"/>
                                   </fileset>
 
                               </copy>

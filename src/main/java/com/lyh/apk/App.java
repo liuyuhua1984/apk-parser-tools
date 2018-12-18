@@ -19,6 +19,9 @@ public class App extends Start
     private static String outputPathName;
 
     private static Integer allPackage = 0;
+
+    /**KEY_STORE_FLAG**/
+    public static Integer KEY_STORE_FLAG = 0;
     public static void main( String[] args )
     {
 
@@ -35,6 +38,9 @@ public class App extends Start
         if (args.length > 4){
             allPackage = Integer.parseInt(args[4]);
         }
+        if (args.length > 5){
+            KEY_STORE_FLAG = Integer.parseInt(args[5]);
+        }
         App app = new App();
         app.start(args);
 
@@ -48,6 +54,6 @@ public class App extends Start
     @Override
     public void initialize() {
         AgentUserManager agentUserManager = SpringBeanFactory.getSpringBean(AgentUserManager.class);
-        agentUserManager.task(inputPathName,outputPathName,allPackage);
+        agentUserManager.task(inputPathName,outputPathName,allPackage,KEY_STORE_FLAG);
     }
 }

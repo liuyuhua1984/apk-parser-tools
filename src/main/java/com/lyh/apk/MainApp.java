@@ -13,6 +13,6 @@ public class MainApp {
     public static void main(String[] args) {
 
         File f = new File(System.getProperty("user.dir"));
-        App.main(new String[]{f.getPath() + File.separator + "", "logs/apkLog", f.getPath() + File.separator + "app.apk", f.getPath() + File.separator});
+        App.main(new String[]{f.getPath() + File.separator + "", "logs/apkLog", f.getPath() + File.separator + "app.apk", f.getPath() + File.separator,"1","1"});
     }
 }

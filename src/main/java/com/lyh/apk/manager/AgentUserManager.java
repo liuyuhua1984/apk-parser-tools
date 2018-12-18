@@ -2,6 +2,8 @@ package com.lyh.apk.manager;
 
 import com.lyh.apk.ApkFile;
 import com.lyh.apk.model.AgentUser;
+import com.lyh.apk.properties.ServerGameConfig;
+import com.lyh.apk.res.ResPath;
 import com.lyh.apk.res.UserDir;
 import com.lyh.apk.service.AgentUserService;
 import com.lyh.apk.shutdown.ShutDownThread;
@@ -47,11 +49,11 @@ public class AgentUserManager implements Stopable {
         ShutDownThread.registerCloseableToShutDown(this);
     }
 
-    public void task(final String inputPath,final String outputPath,final  Integer allPackage){
+    public void task(final String inputPath,final String outputPath,final  Integer allPackage,final int keyStoreFlag){
 
         if (allPackage == 1) {
             List<AgentUser> list = agentUserService.findAllAgentByLevel(2);
-            doCmd(inputPath,outputPath,list);
+            doCmd(inputPath,outputPath,keyStoreFlag,list);
         }
 
         threadPool.scheduleAtFixedRate(new Runnable() {
@@ -61,7 +63,7 @@ public class AgentUserManager implements Stopable {
             public void run() {
 
                 List<AgentUser> list = agentUserService.findByLevelAndCreatePackage(2, 0);
-                doCmd(inputPath,outputPath,list);
+                doCmd(inputPath,outputPath,keyStoreFlag,list);
 
             }
 
@@ -74,7 +76,7 @@ public class AgentUserManager implements Stopable {
         executorPool.shutdown();
     }
 
-    public void doCmd(final String inputPath,final String outputPath,List<AgentUser> list){
+    public void doCmd(final String inputPath,final String outputPath,final int keyStoreFlag,List<AgentUser> list){
 
         if (list != null && list.size() > 0){
             for (int i = 0; i < list.size(); i++) {
@@ -84,12 +86,18 @@ public class AgentUserManager implements Stopable {
                     @Override
                     public void run() {
                         try {
-
+                            String outPutApk = outputPath + File.separator + user.getId() +".apk";
                             ApkFile.addStrToApk(inputPath,
-                                    outputPath + File.separator + user.getId() + ".apk",
+                                    outPutApk,
                                     "0," + user.getId() + ",0",
-                                    "assets/res/raw-assets/resources/mainUI/var/config.txt");
+                                    "assets/res/raw-assets/resources/mainUI/var/config.txt",keyStoreFlag);
                             logger.error("代理打包已完成::{}",user.getId());
+                            //android重签名
+                            if (keyStoreFlag == 1) {
+                                ApkFile.signApk(ResPath.RES + ServerGameConfig.ANDROID_KEYSTORE_NAME, ServerGameConfig.ANDROID_KEY_ALIAS, ServerGameConfig.ANDROID_PASSWORD,
+                                        outPutApk, outPutApk, false);
+                                logger.error("签名已完成:" + outputPath + File.separator + user.getId() + ".apk" + "::{}", user.getId());
+                            }
                             user.setCreatePackageFlag(1);
                             agentUserService.updateByCreatePackageFlag(user);
                             logger.error("代理打包更新数据库已完成::{}",user.getId());

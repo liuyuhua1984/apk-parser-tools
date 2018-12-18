@@ -5,6 +5,7 @@ import ch.qos.logback.classic.joran.JoranConfigurator;
 import ch.qos.logback.core.joran.spi.JoranException;
 
 import com.lyh.apk.beanfactory.SpringBeanFactory;
+import com.lyh.apk.properties.ConfigFactory;
 import com.lyh.apk.res.ResPath;
 import com.lyh.apk.res.UserDir;
 import com.lyh.apk.shutdown.ShutDownThread;
@@ -55,7 +56,7 @@ public abstract class Start {
         // setLog4jPath(ars[2], UserDir.USER_DIR + "/" + "log4j.properties");
         // PropertyConfigurator.configure(UserDir.USER_DIR + "/" + "log4j.properties");
         configLogBack(ars[1]);
-
+        ConfigFactory.init(ResPath.RES);
         SpringBeanFactory.springStart();
         // ars[0]自己服务的标志
         //ServerInfoManage.curServerInfo = ServerInfoManage.getSConfig(Integer.parseInt(ars[0]));

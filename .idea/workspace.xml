@@ -2,10 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbedae36-b79b-453b-8023-54f18926f575" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/logs/trace/log.2018-12-15.0.log" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyh/apk/properties/ConfigFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyh/apk/properties/IPropertiesResPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyh/apk/properties/ServerGameConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lyh/apk/properties/ServerProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/apk-parser-tools-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dist/apk-parser-tools-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/apk.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/apk.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/res/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dist/res/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/game-key.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/game.properties" beforeDir="false" afterPath="$PROJECT_DIR$/res/game.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sh/apk.bat" beforeDir="false" afterPath="$PROJECT_DIR$/sh/apk.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sh/apk.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sh/apk.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyh/apk/ApkFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyh/apk/ApkFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyh/apk/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyh/apk/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyh/apk/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyh/apk/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyh/apk/manager/AgentUserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyh/apk/manager/AgentUserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lyh/apk/start/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lyh/apk/start/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/antrun/build-main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/antrun/build-main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apk-parser-tools-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/apk-parser-tools-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring.components" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/spring.components" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/apk/ApkFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyh/apk/ApkFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/apk/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyh/apk/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/apk/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyh/apk/MainApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/apk/manager/AgentUserManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyh/apk/manager/AgentUserManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/apk/manager/AgentUserManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyh/apk/manager/AgentUserManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/apk/manager/AgentUserManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyh/apk/manager/AgentUserManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lyh/apk/start/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lyh/apk/start/Start.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,31 +45,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/service/AgentUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/model/AgentUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4216">
-              <caret line="249" lean-forward="true" selection-start-line="249" selection-end-line="249" />
+            <state relative-caret-position="171">
+              <caret line="163" selection-start-line="163" selection-end-line="163" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/mapper/AgentUserMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/ApkFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="131" column="4" selection-start-line="131" selection-start-column="4" selection-end-line="136" selection-end-column="71" />
+            <state relative-caret-position="-326">
+              <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,28 +66,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/lyh/apk/mapper/sqlmap/AgentUserMapper.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/MainApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="594" column="35" selection-start-line="594" selection-start-column="16" selection-end-line="594" selection-end-column="35" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/mybatis-config.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/start/Start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+            <state relative-caret-position="-319">
+              <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/service/impl/AgentUserServiceImpl.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/properties/ConfigFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/properties/IPropertiesResPath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/properties/ServerGameConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="78" column="25" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,11 +119,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="473">
+              <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="1009" column="54" selection-start-line="1009" selection-start-column="54" selection-end-line="1009" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -95,33 +140,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/manager/AgentUserManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+            <state relative-caret-position="337">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1702#2026#0" expanded="true" />
-                <element signature="e#2025#2026#0" expanded="true" />
-                <element signature="e#2449#3371#0" expanded="true" />
-                <element signature="e#3370#3371#0" expanded="true" />
+                <element signature="e#2555#4016#0" expanded="true" />
+                <element signature="e#4015#4016#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="1011" selection-start-line="1011" selection-end-line="1011" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -145,6 +170,7 @@
       <find>Quer</find>
       <find>Query</find>
       <find>apk</find>
+      <find>名字</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,26 +179,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/ApkFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/beanfactory/SpringBeanFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/model/AgentUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/mapper/sqlmap/AgentUserMapper.xml" />
         <option value="$PROJECT_DIR$/res/beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/stop/Stopable.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/shutdown/ShutDownThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/start/Start.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/MainApp.java" />
         <option value="$PROJECT_DIR$/res/jdbc.properties" />
         <option value="$PROJECT_DIR$/res/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/res/logback.xml" />
         <option value="$PROJECT_DIR$/res/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/com/lyh/apk/mapper/sqlmap/AgentUserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/mapper/AgentUserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/service/AgentUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/service/impl/AgentUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/properties/ConfigFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/properties/IPropertiesResPath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/start/Start.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/properties/ServerGameConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/ApkFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/manager/AgentUserManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lyh/apk/MainApp.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -211,7 +240,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -313,6 +342,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="lyh" type="462c0819:PsiDirectoryNode" />
               <item name="apk" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apk-parser-tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apk-parser-tools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lyh" type="462c0819:PsiDirectoryNode" />
+              <item name="apk" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -327,6 +367,17 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="apk-parser-tools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apk-parser-tools" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lyh" type="462c0819:PsiDirectoryNode" />
+              <item name="apk" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -336,7 +387,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544847984953" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545130599956" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -346,19 +397,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.lyh.apk.service.impl" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Work\apk-parser-tools\src\main\java\com\lyh\apk\properties" />
+      <recent name="E:\Work\apk-parser-tools\src\main\java\com\lyh\apk" />
+      <recent name="E:\Work\apk-parser-tools\src\main\resources" />
+      <recent name="E:\Work\apk-parser-tools\src\main\java\com\lyh\apk\mapper\sqlmap" />
+      <recent name="E:\Work\apk-parser-tools\src\main\java\com\lyh\apk\service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lyh.apk.mapper" />
       <recent name="com.lyh.apk.model" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Work\apk-parser-tools\src\main\resources" />
-      <recent name="E:\Work\apk-parser-tools\src\main\java\com\lyh\apk\mapper\sqlmap" />
-      <recent name="E:\Work\apk-parser-tools\src\main\java\com\lyh\apk\service" />
-      <recent name="E:\Work\apk-parser-tools\src\main\java\com\lyh\apk\utils" />
-      <recent name="E:\Work\apk-parser-tools\src\main\java\com\lyh\apk" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lyh.apk.service.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -396,16 +447,20 @@
       <workItem from="1544777172495" duration="5702000" />
       <workItem from="1544835043420" duration="12821000" />
       <workItem from="1544848160261" duration="5457000" />
+      <workItem from="1544859341167" duration="614000" />
+      <workItem from="1545117013779" duration="2896000" />
+      <workItem from="1545122441830" duration="7830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25268000" />
+    <option name="totallyTimeSpent" value="36608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1913646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -416,21 +471,21 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.32962137" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.81663114" weight="0.39933258" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.81130064" weight="0.47884187" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.32925472" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4978678" visible="true" weight="0.32850778" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.32850778" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49733475" weight="0.32925472" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.32850778" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49093816" weight="0.32850778" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.1945629" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.13859275" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -461,16 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="543">
           <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/ApkFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -527,23 +572,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/lyh/apk/AppTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/start/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -590,10 +618,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/service/AgentUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        <state relative-caret-position="187">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/mapper/AgentUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2176">
+          <caret line="131" column="4" selection-start-line="131" selection-start-column="4" selection-end-line="136" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lyh/apk/mapper/sqlmap/AgentUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10098">
+          <caret line="594" column="35" selection-start-line="594" selection-start-column="16" selection-end-line="594" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -604,34 +652,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/service/impl/AgentUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="1011" selection-start-line="1011" selection-end-line="1011" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/lyh/apk/mapper/sqlmap/AgentUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="594" column="35" selection-start-line="594" selection-start-column="16" selection-end-line="594" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/mapper/AgentUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="131" column="4" selection-start-line="131" selection-start-column="4" selection-end-line="136" selection-end-column="71" />
+        <state relative-caret-position="493">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/service/AgentUserService.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="1275">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/properties/IPropertiesResPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/properties/ConfigFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/properties/ServerGameConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="78" column="25" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/model/AgentUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="163" selection-start-line="163" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/start/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-319">
+          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -640,8 +712,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="473">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/ApkFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-326">
+          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -650,32 +732,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/manager/AgentUserManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+        <state relative-caret-position="337">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1702#2026#0" expanded="true" />
-            <element signature="e#2025#2026#0" expanded="true" />
-            <element signature="e#2449#3371#0" expanded="true" />
-            <element signature="e#3370#3371#0" expanded="true" />
+            <element signature="e#2555#4016#0" expanded="true" />
+            <element signature="e#4015#4016#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/model/AgentUser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4216">
-          <caret line="249" lean-forward="true" selection-start-line="249" selection-end-line="249" />
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lyh/apk/service/impl/AgentUserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="407">
+          <caret line="1009" column="54" selection-start-line="1009" selection-start-column="54" selection-end-line="1009" selection-end-column="54" />
         </state>
       </provider>
     </entry>
