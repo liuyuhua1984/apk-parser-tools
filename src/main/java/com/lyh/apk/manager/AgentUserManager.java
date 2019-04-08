@@ -37,7 +37,7 @@ public class AgentUserManager implements Stopable {
 
     public static ScheduledExecutorService threadPool = new ScheduledThreadPoolExecutor(1);
 
-    public static ExecutorService executorPool =  new ThreadPoolExecutor(0, Integer.MAX_VALUE,
+    public static ExecutorService executorPool =  new ThreadPoolExecutor(0, 20,
             60L, TimeUnit.SECONDS,
             new SynchronousQueue<Runnable>());
     private static Logger logger = LoggerFactory.getLogger(AgentUserManager.class);
